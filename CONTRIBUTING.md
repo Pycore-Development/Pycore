@@ -1,4 +1,4 @@
-## Contributing to Pycord
+## Contributing to pycore
 
 First off, thanks for taking the time to contribute. It makes the library substantially
 better. :+1:
@@ -10,9 +10,9 @@ guidelines, not hard rules.
 
 Generally speaking questions are better suited in our resources below.
 
-- The official support server: https://pycord.dev/discord
-- [The FAQ in the documentation](https://docs.pycord.dev/en/master/faq.html)
-- [StackOverflow's `pycord` tag](https://stackoverflow.com/questions/tagged/pycord)
+- The official support server: https://pycore.dev/pycore
+- [The FAQ in the documentation](https://docs.pycore.dev/en/master/faq.html)
+- [StackOverflow's `pycore` tag](https://stackoverflow.com/questions/tagged/pycore)
 
 Please try your best not to ask questions in our issue tracker. Most of them don't
 belong there unless they provide value to a larger audience.
@@ -39,7 +39,7 @@ Please be aware of the following things when filing bug reports.
    - Tell us **what actually happens**. What ends up happening in reality? It's not
      helpful to say "it fails" or "it doesn't work". Say _how_ it failed, do you get an
      exception? Does it hang? How are the expectations different from reality?
-   - Tell us **information about your environment**. What version of Pycord are you
+   - Tell us **information about your environment**. What version of pycore are you
      using? How was it installed? What operating system are you running on? These are
      valuable questions and information that we use.
 

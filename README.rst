@@ -1,23 +1,20 @@
-Pycord
+pycore
 ======
 
-.. image:: https://img.shields.io/discord/881207955029110855?label=discord&style=for-the-badge&logo=discord&color=5865F2&logoColor=white
-   :target: https://pycord.dev/discord
-   :alt: Discord server invite
-.. image:: https://img.shields.io/pypi/v/py-cord.svg?style=for-the-badge&logo=pypi&color=yellowgreen&logoColor=white
-   :target: https://pypi.python.org/pypi/py-cord
-   :alt: PyPI version info
-.. image:: https://img.shields.io/pypi/pyversions/py-cord.svg?style=for-the-badge&logo=python&logoColor=white
-   :target: https://pypi.python.org/pypi/py-cord
-   :alt: PyPI supported Python versions
-.. image:: https://img.shields.io/pypi/dm/py-cord?color=blueviolet&logo=pypi&logoColor=white&style=for-the-badge
-   :target: https://pypi.python.org/pypi/py-cord
-   :alt: PyPI downloads
-.. image:: https://img.shields.io/github/v/release/Pycord-Development/pycord?include_prereleases&label=Latest%20Release&logo=github&sort=semver&style=for-the-badge&logoColor=white
-   :target: https://github.com/Pycord-Development/pycord/releases
-   :alt: Latest release
+.. image:: https://img.shields.io/pycore/881207955029110855?label=pycore&style=for-the-badge&logo=pycore&color=5865F2&logoColor=white
+:target: https://pycore.dev/pycore
+:alt: pycore server invite
+.. image:: https://img.shields.io/pypi/v/pycore.svg?style=for-the-badge&logo=pypi&color=yellowgreen&logoColor=white
+:target: https://pypi.python.org/pypi/pycore
+:alt: PyPI version info
+.. image:: https://img.shields.io/pypi/pyversions/pycore.svg?style=for-the-badge&logo=python&logoColor=white
+:target: https://pypi.python.org/pypi/pycore
+:alt: PyPI supported Python versions
+.. image:: https://img.shields.io/pypi/dm/pycore?color=blueviolet&logo=pypi&logoColor=white&style=for-the-badge
+:target: https://pypi.python.org/pypi/pycore
+:alt: PyPI downloads
 
-A fork of discord.py. Pycord is a modern, easy to use, feature-rich, and async ready API wrapper for Discord written in Python.
+A fork of pycore.py. Pycore is a modern, easy to use, feature-rich, and async ready API wrapper for pycore written in Python.
 
 Key Features
 ------------
@@ -37,37 +34,37 @@ To install the library without full voice support, run the following command:
 .. code:: sh
 
     # Linux/macOS
-    python3 -m pip install -U py-cord
+    python3 -m pip install -U pycore
 
     # Windows
-    py -3 -m pip install -U py-cord
+    py -3 -m pip install -U pycore
 
 Otherwise, to get full voice support, run the following command:
 
 .. code:: sh
 
     # Linux/macOS
-    python3 -m pip install -U "py-cord[voice]"
+    python3 -m pip install -U "pycore[voice]"
 
     # Windows
-    py -3 -m pip install -U py-cord[voice]
+    py -3 -m pip install -U pycore[voice]
 
 To install additional packages for speedup, run the following command:
 
 .. code:: sh
 
     # Linux/macOS
-    python3 -m pip install -U "py-cord[speed]"
+    python3 -m pip install -U "pycore[speed]"
     # Windows
-    py -3 -m pip install -U py-cord[speed]
+    py -3 -m pip install -U pycore[speed]
 
 
 To install the development version, do the following:
 
 .. code:: sh
 
-    $ git clone https://github.com/Pycord-Development/pycord
-    $ cd pycord
+    $ git clone https://github.com/Pycore-Development/pycore
+    $ cd pycore
     $ python3 -m pip install -U .[voice]
 
 or if you do not want to clone the repository:
@@ -75,9 +72,9 @@ or if you do not want to clone the repository:
 .. code:: sh
 
     # Linux/macOS
-    python3 -m pip install git+https://github.com/Pycord-Development/pycord
+    python3 -m pip install git+https://github.com/Pycore-Development/pycore
     # Windows
-    py -3 -m pip install git+https://github.com/Pycord-Development/pycord
+    py -3 -m pip install git+https://github.com/Pycore-Development/pycore
 
 
 Optional Packages
@@ -97,9 +94,9 @@ Quick Example
 
 .. code:: py
 
-    import discord
+    import pycore
 
-    bot = discord.Bot()
+    bot = pycore.Bot()
 
     @bot.slash_command()
     async def hello(ctx, name: str = None):
@@ -117,10 +114,10 @@ Traditional Commands Example
 
 .. code:: py
 
-    import discord
-    from discord.ext import commands
+    import pycore
+    from pycore.ext import commands
 
-    intents = discord.Intents.default()
+    intents = pycore.Intents.default()
     intents.message_content = True
     bot = commands.Bot(command_prefix=">", intents=intents)
 
@@ -137,7 +134,6 @@ Note: Make sure you do not reveal your bot token to anyone, as it can grant acce
 Useful Links
 ------------
 
-- `Documentation <https://docs.pycord.dev/en/master/index.html>`_
-- `Learn how to create Discord bots with Pycord <https://guide.pycord.dev>`_
-- `Our Official Discord Server <https://pycord.dev/discord>`_
-- `Official Discord Developers Server <https://discord.gg/discord-developers>`_
+- `Documentation <https://docs.pycore.dev/en/master/index.html>`_
+- `Our Official pycore Server <https://pycore.dev/pycore>`_
+- `Official pycore Developers Server <https://google.com>`_

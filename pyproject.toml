@@ -6,11 +6,11 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "py-cord"
+name = "pycore"
 authors = [
-    {name = "Pycord Development"}
+    {name = "pycore Development"}
 ]
-description = "A Python wrapper for the Discord API"
+description = "A Python wrapper for the pycore API"
 readme = "README.rst"
 requires-python = ">=3.8"
 license = {text = "MIT"}
@@ -34,25 +34,25 @@ classifiers = [
 dynamic = ["version", "dependencies", "optional-dependencies"]
 
 [project.urls]
-Homepage = "https://pycord.dev"
-Changelog = "https://docs.pycord.dev/en/master/changelog.html"
-Source = "https://github.com/Pycord-Development/pycord"
-Documentation = "https://docs.pycord.dev"
-Tracker = "https://github.com/Pycord-Development/pycord/issues"
-Funding = "https://patreon.com/pycord"
+Homepage = "https://pycore.dev"
+Changelog = "https://docs.pycore.dev/en/master/changelog.html"
+Source = "https://github.com/Pycore-Development/pycore"
+Documentation = "https://docs.pycore.dev"
+Tracker = "https://github.com/Pycore-Development/pycore/issues"
+Funding = "https://patreon.com/pycore"
 
 [tool.setuptools]
 packages = [
-    "discord",
-    "discord.types",
-    "discord.sinks",
-    "discord.ui",
-    "discord.webhook",
-    "discord.commands",
-    "discord.ext.commands",
-    "discord.ext.tasks",
-    "discord.ext.pages",
-    "discord.ext.bridge",
+    "pycore",
+    "pycore.types",
+    "pycore.sinks",
+    "pycore.ui",
+    "pycore.webhook",
+    "pycore.commands",
+    "pycore.ext.commands",
+    "pycore.ext.tasks",
+    "pycore.ext.pages",
+    "pycore.ext.bridge",
 ]
 
 [tool.setuptools.dynamic]
